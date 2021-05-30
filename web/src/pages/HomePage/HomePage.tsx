@@ -1,5 +1,5 @@
 import { useMutation } from '@redwoodjs/web'
-import VotesCell, { QUERY } from 'src/components/VotesCell'
+import VotesCell, { QUERY } from 'src/components/VotesCell/VotesCell'
 
 const CREATE_VOTE_MUTATION = gql`
   mutation CreateVoteMutation($input: CreateVoteInput!) {
